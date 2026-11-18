@@ -39,6 +39,14 @@ Windows宿主机
 
 课程Python代码在Ubuntu WSL2运行；Windows主要用于文件管理和VLC播放复核。
 
+## 如何运行脚本
+
+- `.sh`安装脚本：在Ubuntu用`bash 脚本名.sh`执行，例如`bash install_ubuntu_tools.sh`。
+- `.py`课程脚本：在Ubuntu进入脚本所属项目目录后，用`python3 脚本名.py 参数`执行。
+- `url_parser.py`必须带`--url`参数；看到“required: --url”说明Python已运行，只是参数没给。
+- VS Code使用WSL远程打开课程目录，集成终端选择Ubuntu，解释器选择`/usr/bin/python3`。
+- 详细命令见`脚本运行指南.md`。
+
 ## 如何进入Ubuntu和容器
 
 ```powershell

@@ -77,6 +77,61 @@ exit
 
 执行后会回到原来的Windows PowerShell窗口。
 
+## 零基础Linux速查
+
+第一次使用Ubuntu时，先掌握下面这些命令就够跟完项目0：
+
+|命令|作用|课堂判断|
+|---|---|---|
+|`pwd`|显示当前目录|先确认自己在哪，再执行后续命令|
+|`ls`|列出当前目录内容|查看脚本、配置文件是否存在|
+|`ls -la`|查看详细内容和隐藏文件|能看到`.env`、`.venv`|
+|`cd 路径`|进入目录|进入课程目录后用`pwd`复核|
+|`cd ..`|返回上一级|理解`../../data/passage.mp4`|
+|`cd ~`|回到用户主目录|Ubuntu主目录通常是`/home/用户名`|
+|`cp 源 目标`|复制文件|例如`cp .env.example .env`|
+|`cat 文件`|查看短文件|查看`.env`是否填写完整|
+|`nano 文件`|编辑文本|`Ctrl+O`保存，`Ctrl+X`退出|
+|`clear`|清屏|只整理画面，不删除历史|
+|`history`|查看历史命令|可复制作为实验证据|
+|`which 命令`|查看命令是否存在|常用于检查ffmpeg、docker|
+|`命令 --version`|查看版本|工具安装后的通用检查方法|
+
+### root、sudo和密码
+
+`root`是Linux超级管理员。课程不要求大家长期使用root；安装软件或启动系统服务时，在命令前加`sudo`表示“仅这一条命令使用管理员权限”。输入sudo密码时屏幕不显示`*`，继续输入并回车即可。
+
+常用检查：
+
+```bash
+whoami
+id
+sudo apt update
+```
+
+### 路径符号
+
+|符号|含义|例子|
+|---|---|---|
+|`/`|Linux根目录|`/mnt/d/net-course`|
+|`~`|当前用户主目录|`cd ~`|
+|`.`|当前目录|`./environment_check.py`|
+|`..`|上一级目录|`../../data/passage.mp4`|
+|`/mnt/d`|Windows D盘在Ubuntu中的位置|`/mnt/d/net-course`|
+
+Linux区分大小写，路径含中文或空格时建议用英文引号包住。详细说明见同目录《项目0Linux命令与三层环境入门指南》。
+
+## 脚本怎么运行
+
+|文件|执行层|命令|说明|
+|---|---|---|---|
+|`install_ubuntu_tools.sh`|Ubuntu WSL2|`bash install_ubuntu_tools.sh`|Shell脚本用`bash`执行，不需要先chmod|
+|`install_docker_engine_ubuntu.sh`|Ubuntu WSL2|`bash install_docker_engine_ubuntu.sh`|在项目0自检目录执行|
+|`environment_check.py`|Ubuntu WSL2|`python3 environment_check.py --help`|先看参数；正式验收再执行完整命令|
+|项目1`url_parser.py`|Ubuntu WSL2|`python3 url_parser.py --url 'rtmp://127.0.0.1:1935/course/cam_g01'`|先进入脚本所在目录；`--url`必填|
+
+如果提示`required: --url`，说明Python已运行，只是缺少参数；如果提示`No such file or directory`，先执行`pwd`和`ls`确认当前目录。VS Code请在Ubuntu中进入项目目录后执行`code .`，终端选择Bash，Python解释器选择`/usr/bin/python3`。
+
 ## 安装顺序
 
 ### 1. 进入Ubuntu并进入项目0自检目录
