@@ -1,11 +1,6 @@
 __pycache__/
-*.py[cod]
-.DS_Store
-Thumbs.db
-~$*
-.env
 .venv/
-venv/
 evidence/
 logs/
-reports/
+*.pyc
+.env

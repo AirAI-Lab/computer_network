@@ -1,0 +1,17 @@
+services:
+  zlm:
+    # ZLM_IMAGE来自.env，由教师在课堂现场指定。
+    # 不要把私有仓库地址、账号或令牌写入公开仓库。
+    image: ${ZLM_IMAGE}
+    # ZLM_CONTAINER保持zlm_g01，方便全班命令和任务卡一致。
+    container_name: ${ZLM_CONTAINER}
+    # 容器退出后由Docker自动重启；restart不等于视频流一定在线。
+    restart: unless-stopped
+    # 左边是Ubuntu WSL2本机端口，右边是容器内服务端口。
+    # 1935用于RTMP推拉流，8080映射容器80端口用于HTTP服务入口，
+    # 554用于RTSP，10000/udp用于RTP接收。
+    ports:
+      - "1935:1935"
+      - "8080:80"
+      - "554:554"
+      - "10000:10000/udp"
