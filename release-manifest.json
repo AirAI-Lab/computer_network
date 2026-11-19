@@ -1,8 +1,8 @@
 {
   "name": "计算机网络应用学生公开版",
-  "generatedAt": "2026-11-18T18:57:57",
-  "fileCount": 83,
-  "totalBytes": 124270519,
+  "generatedAt": "2026-11-19T09:26:57",
+  "fileCount": 85,
+  "totalBytes": 124496200,
   "files": [
     {
       "path": ".gitattributes",
@@ -36,13 +36,23 @@
     },
     {
       "path": "00_课程导学与环境安装/任务卡/项目0第1课时任务卡+文奴.docx",
-      "bytes": 40913,
-      "sha256": "b593a619ae5a17733b3003675bc422e4f22f1460e7e98f0992d1a8f75407aeac"
+      "bytes": 41259,
+      "sha256": "4f59564442459a36e24ff3b4571235c2ed9ab6f30d17b2193e0c249dc979ce76"
     },
     {
       "path": "00_课程导学与环境安装/任务卡/项目0第2课时任务卡+文奴.docx",
-      "bytes": 41102,
-      "sha256": "bd5564b1d83aecb0d953754482f1b7b096252e68a5cf512b88b71eb8517ac284"
+      "bytes": 41433,
+      "sha256": "d6dd4acc8eff907d81c4bd03189a1d87373ca94119345f7a25e7b99d9369f6a4"
+    },
+    {
+      "path": "00_课程导学与环境安装/计算机网络技术基础实训+Python与Shell零基础入门指南+文奴.docx",
+      "bytes": 42043,
+      "sha256": "254e0ff67b72a0d3b8d8870d666525c3c5a38f715ac8b8f902e0fedec1063c55"
+    },
+    {
+      "path": "00_课程导学与环境安装/计算机网络技术基础实训+代码阅读速查表+文奴.docx",
+      "bytes": 39848,
+      "sha256": "f52d5d602b671b6f1e375d0370eb541a08e11e79f0dd2ac1950e520674a1ade5"
     },
     {
       "path": "00_课程导学与环境安装/计算机网络技术基础实训+项目0Linux命令与三层环境入门指南+文奴.docx",
@@ -51,23 +61,23 @@
     },
     {
       "path": "00_课程导学与环境安装/项目0环境安装与验收指南.docx",
-      "bytes": 44424,
-      "sha256": "975b741e35b36cf466b2425ef1e58b274f60d8e603afb8a1a58c193425e13f21"
+      "bytes": 44534,
+      "sha256": "dceb9283ed20d6149f490b9182a7a96a622a49ccf3a75488fbac63b8a54c41f9"
     },
     {
       "path": "01_项目1_网络视频链路认知与地址解析/任务卡/项目1第2课时任务卡+文奴.docx",
-      "bytes": 41073,
-      "sha256": "f39c80c54430521a324e0f9ba65eee01333ca179666420d2062ccfbe78fb9433"
+      "bytes": 41379,
+      "sha256": "80f24843002742792c43da3849b614e50ceaf2ab8987d37407b8e7fe2de090cb"
     },
     {
       "path": "01_项目1_网络视频链路认知与地址解析/任务卡/项目1第3课时任务卡+文奴.docx",
-      "bytes": 39754,
-      "sha256": "25a788472c58459ed1c00f68213c23a6c2fd9b428e1a42aceefd3da907e1f5f2"
+      "bytes": 40013,
+      "sha256": "74db1aaa641f6f9f33ace20528cefb3c104c2faec33f8a3159fda49c7750a48b"
     },
     {
       "path": "01_项目1_网络视频链路认知与地址解析/任务卡/项目1第4课时任务卡+文奴.docx",
-      "bytes": 39601,
-      "sha256": "2332e2c88cf7781438275ad53fc7b72db23d7daec7a4130a7225a4c3623e0011"
+      "bytes": 39854,
+      "sha256": "d86d842adb080ea7277d41da5b992e16fbfcbc76239e288e8b6f6b7d3a52288c"
     },
     {
       "path": "01_项目1_网络视频链路认知与地址解析/起点代码/link_report.py",
@@ -86,23 +96,23 @@
     },
     {
       "path": "01_项目1_网络视频链路认知与地址解析/起点代码/url_parser.py",
-      "bytes": 1998,
-      "sha256": "495dac04fbcd86006a159828b64d5e8ea6cba900516d2b134d1b2ae696193ee1"
+      "bytes": 3065,
+      "sha256": "9f00aa405e2847e12442ec5b8157b920fbc531b15e75c5d17bea017bb383ea41"
     },
     {
       "path": "02_项目2_Ubuntu_WSL2与Docker部署ZLMediaKit/任务卡/项目2第2课时任务卡+文奴.docx",
-      "bytes": 39870,
-      "sha256": "10867c9b15526eda6c94b83428283e0e5893fffbff779613b917e9b90af714ad"
+      "bytes": 40114,
+      "sha256": "ca443f6c3da779c1cb4f6cf1b93629f0460f20c9719e64751e0eba147f52a920"
     },
     {
       "path": "02_项目2_Ubuntu_WSL2与Docker部署ZLMediaKit/任务卡/项目2第3课时任务卡+文奴.docx",
-      "bytes": 39870,
-      "sha256": "cdf2acc71fe92fde874f85f42178b60cde35721c5ecd09092b67c1ba78f15c68"
+      "bytes": 40139,
+      "sha256": "b5ca9c73a196eb147167806664af56e0b4181625018f9791e62b4735c926f228"
     },
     {
       "path": "02_项目2_Ubuntu_WSL2与Docker部署ZLMediaKit/任务卡/项目2第4课时任务卡+文奴.docx",
-      "bytes": 39473,
-      "sha256": "861e9b771fa58a6f14c8ac01528bd412c8ee6dd271cb0c862736df8121ffbc1c"
+      "bytes": 39703,
+      "sha256": "37f1720d5a218ae11245b3e7a5f3629ba847fcc25cb045885f71ef9467a7ab42"
     },
     {
       "path": "02_项目2_Ubuntu_WSL2与Docker部署ZLMediaKit/起点代码/.env.example",
@@ -126,18 +136,18 @@
     },
     {
       "path": "03_项目3_Python与FFmpeg一路流工程化/任务卡/项目3第2课时任务卡+文奴.docx",
-      "bytes": 39721,
-      "sha256": "055824d1e28ea0b395dbd064ac2a21fe34492b5644acba1d7c7a11a877e406a6"
+      "bytes": 39978,
+      "sha256": "01041a0a5e22958d6054b4080c29ae59a8d84aa2d2d93a899528dfe235d53205"
     },
     {
       "path": "03_项目3_Python与FFmpeg一路流工程化/任务卡/项目3第3课时任务卡+文奴.docx",
-      "bytes": 39660,
-      "sha256": "14cfbb792500c16ce1533fd974654114866c0f0196eff700759d536c886b57eb"
+      "bytes": 39898,
+      "sha256": "ca7c58dd518ba7c483ed23630a69fe7d9c7f85671bce506e1cac9e85f914a9bc"
     },
     {
       "path": "03_项目3_Python与FFmpeg一路流工程化/任务卡/项目3第4课时任务卡+文奴.docx",
-      "bytes": 39503,
-      "sha256": "5d19f87e496370b52e6c628830f23dee08832796c8a4a6e2fbf09ac716a3d5eb"
+      "bytes": 39734,
+      "sha256": "db210514c554b91d821cb4128fe962ea15ea36bef8835f5e30458602fe20bda6"
     },
     {
       "path": "03_项目3_Python与FFmpeg一路流工程化/起点代码/README.md",
@@ -166,18 +176,18 @@
     },
     {
       "path": "04_项目4_网络视频服务五层排障/任务卡/项目4第2课时任务卡+文奴.docx",
-      "bytes": 39691,
-      "sha256": "d45e19d9b9c3007c88c624c91705911efc71aa7a30d915a12c0f0355894d1972"
+      "bytes": 39935,
+      "sha256": "dae724016f1f19a831c2d4bbb53eb2cce458389855b680b09d03b05d2563c406"
     },
     {
       "path": "04_项目4_网络视频服务五层排障/任务卡/项目4第3课时任务卡+文奴.docx",
-      "bytes": 39604,
-      "sha256": "3f99fb2842943abb84cc388a15f23b4018041e96f68087993f7aa7bb8e2ca42a"
+      "bytes": 39835,
+      "sha256": "94caa63bc980e88c99c132717d99b92290557af4f68798e353ffab13ba21757c"
     },
     {
       "path": "04_项目4_网络视频服务五层排障/任务卡/项目4第4课时任务卡+文奴.docx",
-      "bytes": 39435,
-      "sha256": "29adfd8c2087346e8414e3bdcf7be1e48879b0961f9a34f489917f5d103e9026"
+      "bytes": 39658,
+      "sha256": "fbb082c52d46f6e1458de0e99ccdc3b5685343b1dfb54d0313e128aeb4eb0831"
     },
     {
       "path": "04_项目4_网络视频服务五层排障/起点代码/diagnose.py",
@@ -196,18 +206,18 @@
     },
     {
       "path": "05_项目5_多路流与多协议测试/任务卡/项目5第2课时任务卡+文奴.docx",
-      "bytes": 39628,
-      "sha256": "d36aa6d218e18c3ccd6081c598e18c46f834702bad070acf02a0a93a5aa33a01"
+      "bytes": 39874,
+      "sha256": "e6f9c03ef9df9be3115cca78d87934e5985dcc459ac4066214747860b7d6e811"
     },
     {
       "path": "05_项目5_多路流与多协议测试/任务卡/项目5第3课时任务卡+文奴.docx",
-      "bytes": 39568,
-      "sha256": "2131474fb3c34c3ab7e9997714b45cea8e9016a93d1c62bae6537e52d8cc5fa9"
+      "bytes": 39824,
+      "sha256": "88160d69a40ba79efa3cc1e9512dfa70db736592a0b02294cf0229b616ac48c0"
     },
     {
       "path": "05_项目5_多路流与多协议测试/任务卡/项目5第4课时任务卡+文奴.docx",
-      "bytes": 39510,
-      "sha256": "8b8e865505fe43fbc08cc6c4d0d2294bca3fe40c1098aa2acecc011e96953720"
+      "bytes": 39721,
+      "sha256": "e740f4971778279dc0a78026ee75dfc109cad807bf5a76af3946b56eb8766bad"
     },
     {
       "path": "05_项目5_多路流与多协议测试/起点代码/multi_stream_config.json",
@@ -236,13 +246,13 @@
     },
     {
       "path": "06_综合验收与答辩/任务卡/第23课时任务卡+文奴.docx",
-      "bytes": 39664,
-      "sha256": "158adc506548a2f0cb054696d5347cef5217cb95d4a99bd6e47fc05e93e4dd38"
+      "bytes": 39867,
+      "sha256": "72ff587c818896a11a0b272803d0435bc9d2a98beaa70b4aa4d338c701d1c936"
     },
     {
       "path": "06_综合验收与答辩/任务卡/第24课时任务卡+文奴.docx",
-      "bytes": 39638,
-      "sha256": "b18b4a15fa771764958ea5f5c246bcf0cb89e72e16cd84563910b669298e4c04"
+      "bytes": 39932,
+      "sha256": "5e5af2960a9cc3776107ff9dab467904f764ce7ebae073881741c085f7d8968c"
     },
     {
       "path": "06_综合验收与答辩/起点代码/acceptance_check.py",
@@ -281,8 +291,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3643,
-      "sha256": "5b4496e911d77032c299954bb4f45dd84f74b5b0ecf64c4bf9f9a62bcc15cf24"
+      "bytes": 3801,
+      "sha256": "9177bf6e9e51ea543a3b443b89c3d034a35eda58257d82dfc9dd6e6f584478fb"
     },
     {
       "path": "原理动画/0A+一秒画面为什么不能硬塞+原理动画.mp4",
@@ -386,38 +396,38 @@
     },
     {
       "path": "课件PDF/计算机网络技术基础实训+Python与FFmpeg一路流工程化+文奴.pdf",
-      "bytes": 945912,
-      "sha256": "036788c0f0b50c9503f9a84ca71c6cf988de9de365845d4322bff851a09d101d"
+      "bytes": 917919,
+      "sha256": "b37c1aad4154a91bc6b9f4cf66a0a730d2d2bde4a0534cf2ae2c27a9874affd1"
     },
     {
       "path": "课件PDF/计算机网络技术基础实训+Ubuntu WSL2与Docker部署ZLMediaKit+文奴.pdf",
-      "bytes": 860488,
-      "sha256": "99f197173efad6821fda5cbe60a556138021530b0e31548c5db904f6bb6efd76"
+      "bytes": 846415,
+      "sha256": "cb26bfdd9a5ee733920fe05bc788e42d57ef1d567330703b21e6f4211a968640"
     },
     {
       "path": "课件PDF/计算机网络技术基础实训+多路流与多协议测试+文奴.pdf",
-      "bytes": 804489,
-      "sha256": "5bcdc3315af6ca5caa327b41dc7c22aa68ddde4f3ebe46b4210b7e098b5a7919"
+      "bytes": 822301,
+      "sha256": "136e3c4b56e42396e933a12f1cf4b9be42b7002b04915ba77e3b6738d6041250"
     },
     {
       "path": "课件PDF/计算机网络技术基础实训+综合验收与答辩+文奴.pdf",
-      "bytes": 513017,
-      "sha256": "5c41f0e5dd2854d341a13ac5677ecb701eb36c346f11523d7c6bbfba463094fb"
+      "bytes": 539429,
+      "sha256": "8fa5a00ff218653895f6df84cd1cbaf49c9ffe76fc2a527ecbcad6d091d40a0b"
     },
     {
       "path": "课件PDF/计算机网络技术基础实训+网络视频服务五层排障+文奴.pdf",
-      "bytes": 828152,
-      "sha256": "2742005048aad9365dde073a919fadb6fa36a15f7190a9f5fb5606d7b2cbbfbb"
+      "bytes": 853066,
+      "sha256": "7642f695f3afedc4422d3012325ff2d674a878820da66e54a326553bb4603c1c"
     },
     {
       "path": "课件PDF/计算机网络技术基础实训+网络视频链路认知与地址解析+文奴.pdf",
-      "bytes": 797916,
-      "sha256": "5192757c68f1378a9dd00a8254050619c8d1973ce62435049066fef62d3e99e5"
+      "bytes": 824057,
+      "sha256": "542debfdb7e4a3554a33e27d72ab461dee69448f95b6f42eece9eb02dffeb033"
     },
     {
       "path": "课件PDF/计算机网络技术基础实训+课程导学与环境安装+文奴.pdf",
-      "bytes": 1054854,
-      "sha256": "0aa89ad20f87b0b8f571d2a1b23a5d0b3c1baef2d89965e41201468646526028"
+      "bytes": 1139224,
+      "sha256": "882850accca360806c00a655183e0283ca56d5a142926ce4edb125dd27d9c307"
     }
   ]
 }

@@ -23,9 +23,10 @@
 3. 在Windows PowerShell执行 `wsl -d Ubuntu`，进入Ubuntu WSL2。
 4. 在Ubuntu执行 `/mnt/d/...` 路径；不要在PowerShell执行 `/mnt/d/...`。
 5. 按指南完成 Docker Engine 和课程工具安装。
-6. 运行项目0 `environment_check.py`，保存JSON与Markdown报告。
-7. 用Windows VLC播放 `rtmp://127.0.0.1:1935/course/env_check`，保存画面截图。
-8. 按各项目任务卡完成实操和证据归档。
+6. 阅读 `00_课程导学与环境安装/Python与Shell零基础入门指南.docx` 和 `代码阅读速查表.docx`。
+7. 运行项目0 `environment_check.py`，保存JSON与Markdown报告。
+8. 用Windows VLC播放 `rtmp://127.0.0.1:1935/course/env_check`，保存画面截图。
+9. 按各项目任务卡完成实操和证据归档。
 
 ## 环境主线
 
@@ -74,7 +75,7 @@ exit
 - `课件PDF`：7份主课件PDF。
 - `视频课件`：7个项目主线视频课件。
 - `原理动画`：9条概念与流程动画。
-- `00_课程导学与环境安装`：导学、环境指南、自检脚本。
+- `00_课程导学与环境安装`：导学、环境指南、Linux入门、Python与Shell入门、自检脚本。
 - `01_项目1` 至 `05_项目5`：学生任务卡与起点代码。
 - `06_综合验收与答辩`：最终验收任务与起点代码。
 - `教学文件`：教学大纲和两个班级进度表。
